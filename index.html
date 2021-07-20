@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <main>
+        <form>
+
+            <h1>Trivia de futbol⚽</h1>
+
+            <section class="preguntas-container">
+
+            </section>
+
+            <button class="btn">Siguiente</button>
+
+        </form>
+    </main>
+
+
+    <template id="template">
+        <img class="img opacity" src="" alt="">
+
+        <h3 id="titulo-pregunta"></h3>
+
+        <div class="opciones animacion">
+
+            <label class='label' for="input1" id="a">
+                <input type="radio" name="pregunta" value="uncheck" id="input1">
+            </label>
+
+            <label class='label' for="input2" id="b">
+                <input type="radio" name="pregunta" value="uncheck" id="input2">
+            </label>
+
+            <label class='label' for="input3" id="c">
+                <input type="radio" name="pregunta" value="uncheck" id="input3">
+            </label>
+        </div>
+    </template>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
